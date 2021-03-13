@@ -1,107 +1,128 @@
 body {
-    width:1280px;
+  width: 1280px;
 }
 
 .container {
-    margin-top: 20px;
-    margin-left: 110px;
+  margin-top: 20px;
+  margin-left: 110px;
 }
 
-.form-title{
-    text-align: center;
-    margin-bottom: 20px;
+.logo {
+  height: 15%;
+  width: 15%;
 }
 
-#authorizationTitle, #paymentTitle{
-    margin-bottom: 50px;
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#authorizationTitle,
+#paymentTitle {
+  margin-bottom: 50px;
 }
 
 .form-field {
-    margin-bottom: 30px;
-    justify-content:space-between;
-    align-items:center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#passwordField, #contractNumberField, #paymentField{
-    margin-bottom: 50px;
+#passwordField,
+#contractNumberField,
+#paymentField {
+  margin-bottom: 50px;
 }
 
-#passwordControl,#contractNumberControl{
-    min-width:700px;
-    margin-right: 120px;
-    height:70px;
-    font-size:200%;
+#passwordControl,
+#contractNumberControl {
+  min-width: 700px;
+  margin-right: 120px;
+  height: 70px;
+  font-size: 200%;
 }
 
-#fioControl, #phoneNumberControl, #INNControl, #commentControl {
-    min-width:800px;
-    margin-right: 100px;
-    height: 50px;
-    font-size:150%;
+#fioControl,
+#phoneNumberControl,
+#INNControl,
+#commentControl {
+  min-width: 800px;
+  margin-right: 100px;
+  height: 50px;
+  font-size: 150%;
 }
 
 #commentControl {
-    height:80px;
-    resize:none;
+  height: 80px;
+  resize: none;
 }
 
-#userControl{
-    width:500px;
-    margin-right: 370px;
+#userControl {
+  width: 500px;
+  margin-right: 370px;
 }
 
 #moneyControl {
-    width:500px;
-    margin-right: 330px;
-    font-size:200%;
-    height:70px;
+  width: 500px;
+  margin-right: 330px;
+  font-size: 200%;
+  height: 70px;
 }
 
 #moneyLabel {
-    font-size:200%;
-    margin-top: 0;
+  font-size: 200%;
+  margin-top: 0;
 }
 
-#paymentControl{
-    width:500px;
-    margin-right:370px;
+#paymentControl {
+  width: 500px;
+  margin-right: 370px;
 }
 
 .form-label {
-    white-space:nowrap;
-    margin-right: 30px;
-    text-align:right;
-    width:100%;
-    margin-top: auto;
+  white-space: nowrap;
+  margin-right: 30px;
+  text-align: right;
+  width: 100%;
+  margin-top: auto;
 }
 
-#commentLabel, #passwordLabel, #contractNumberLabel, #moneyLabel{
-    margin-top: 10px;
+#commentLabel,
+#passwordLabel,
+#contractNumberLabel,
+#moneyLabel {
+  margin-top: 10px;
 }
 
-#passwordLabel, #contractNumberLabel {
-    font-size: 200%;
+#passwordLabel,
+#contractNumberLabel {
+  font-size: 200%;
 }
 
-#fioLabel, #phoneNumberLabel, #INNLabel, #commentLabel {
-    font-size:150%;
+#fioLabel,
+#phoneNumberLabel,
+#INNLabel,
+#commentLabel {
+  font-size: 150%;
 }
 
-#authorizationButton, #serviceButton, #paymentButton {
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 300px;
-    font-size:150%;
+#authorizationButton,
+#serviceButton,
+#paymentButton {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  font-size: 150%;
 }
 
 #services {
-    width:100%;
-    font-size:300%;
-    text-align:center;
-    max-height:400px;
+  width: 100%;
+  font-size: 300%;
+  text-align: center;
+  max-height: 400px;
 }
 
 .list-group-item:hover {
-    color:cadetblue;
+  color: cadetblue;
 }
