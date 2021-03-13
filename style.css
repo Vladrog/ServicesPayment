@@ -34,8 +34,8 @@ body {
 }
 
 #fioControl, #phoneNumberControl, #INNControl, #commentControl {
-    min-width:700px;
-    margin-right: 200px;
+    min-width:750px;
+    margin-right: 150px;
     height: 50px;
     font-size:150%;
 }
